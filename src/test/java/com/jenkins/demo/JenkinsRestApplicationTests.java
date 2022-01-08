@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JenkinsRestApplicationTests {
 
-	public static Logger logger = LoggerFactory.getLogger(JenkinsRestApplicationTests.class);
+	public  Logger logger = LoggerFactory.getLogger(JenkinsRestApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("-----------In Test case execution ----");
